@@ -3,7 +3,7 @@ import getData from '../utils/getData.js';
 const Home = async () => {
 
     const products = await getData()
-    console.log('producto', products)
+    /* console.log('producto', products) */
 
     const view = `
        <div class = "Product">

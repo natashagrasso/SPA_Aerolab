@@ -1,6 +1,6 @@
 import getHash from '../utils/getHash';
 import getData from '../utils/getData';
-
+import Error404 from './Error404';
 
 
 const Productos = async () => {
@@ -31,7 +31,7 @@ const Productos = async () => {
             </article>
         </div>  
         `
-
+        ;Error404()
         
     return view;
 }     

@@ -6,7 +6,7 @@ const Category = () => {
             <p>Short by:</p>
 
             <div class="button-container">
-                <button class="button-selected">Most recent</button>
+                <button class="button-blue">Most recent</button>
                 <button>Lowest price</button>
                 <button>Highest prince</button>
             </div>
